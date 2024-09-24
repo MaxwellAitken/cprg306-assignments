@@ -2,7 +2,7 @@ import Link from "next/link";
 
 
 
-export default function StudentComponent(){
+export default function StudentInfo(){
     return(
         <main>
             <h3>Maxwell Aitken</h3>
