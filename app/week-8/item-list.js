@@ -60,7 +60,7 @@ export default function ItemList({items, onItemSelect}) {
         }
         
         // If sorting by grouped category: render the items as a grouped list
-        let categories = ["bakery", "beverages", "canned goods", "dairy", "dry goods", "frozen foods", "household", "other", "meat", "snacks"];
+        let categories = ["bakery", "beverages", "canned goods", "dairy", "dry goods", "frozen foods", "household", "meat", "other", "produce", "snacks"];
         return (
             <ul className="flex flex-col gap-4">
                 {categories.map((category, index) => {

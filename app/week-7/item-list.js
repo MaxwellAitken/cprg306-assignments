@@ -68,7 +68,7 @@ export default function ItemList({items}) {
         }
         
 
-        let categories = ["bakery", "canned goods", "dairy", "dry goods", "household", "meat", "produce"];
+        let categories = ["bakery", "beverages", "canned goods", "dairy", "dry goods", "frozen foods", "household", "meat", "other", "produce", "snacks"];
 
         // If sorting by grouped category: render the items as a grouped list
         return(
