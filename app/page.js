@@ -9,7 +9,7 @@ export default function Home() {
     <main className="flex flex-col gap-10 p-20">
       <h1 className="text-4xl font-bold">CPRG 306: Web Development 2 - Assignments</h1>
       <div>
-        <ul>
+        <ul className="flex flex-col gap-4 text-lg">
           <li>
             <Link href="/week-2" className={linkStyles}>Week 2 Assignment</Link>
           </li>
@@ -33,6 +33,9 @@ export default function Home() {
           </li>
           <li>
             <Link href="/week-9" className={linkStyles}>Week 9 Assignment</Link>
+          </li>
+          <li>
+            <Link href="/week-10" className={linkStyles}>Week 10 Assignment</Link>
           </li>
         </ul>
       </div>
